@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-var today = new Date();
-var currentYear = today.getFullYear();
-
 function Footer() {
+  var today = new Date();
+  var currentYear = today.getFullYear();
   return (
     <footer>
-      <p>Copyright 2021 </p>
+      <p>Copyright {currentYear} </p>
     </footer>
   );
 }
